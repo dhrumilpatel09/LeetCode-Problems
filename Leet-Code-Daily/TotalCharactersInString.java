@@ -2,6 +2,7 @@ class Solution {
     public int lengthAfterTransformations(String s, int t) {
         final int MOD = 1_000_000_007;
 
+        
         // dp[i] represents the length of character (char)('a' + i) after t transformations
         int[] dp = new int[26];
         // Initially, each character contributes 1 to the length
